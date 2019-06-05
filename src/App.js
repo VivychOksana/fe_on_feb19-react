@@ -147,9 +147,10 @@ function calculateWinner(squares) {
   return null;
 }
 
-export default App
 
 ReactDOM.render(
   <Game />,
   document.getElementById('root')
 );
+
+export default Square
